@@ -3,12 +3,12 @@
 
 #### 使用的是：vuepress-theme-vdoing 主题
 #### 本地运行 
-直接运行下面命令：
+运行下面命令：
 ```
 npm run dev
 ```
 #### docker 方式部署 
-直接运行下面命令：
+运行下面命令：
 ```
 sh docker_deploy.sh
 ```
