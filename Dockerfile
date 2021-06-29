@@ -19,7 +19,7 @@ EXPOSE 80
 # 3. 把dist目录下文件拷贝到 nginx目录下
 # 4. 删除工作目录下的文件 减少镜像体积
 RUN npm install --registry=https://registry.npm.taobao.org \
-    && npm run docs:build \
+    && npm run dev \
     && cp -r docs/.vuepress/dist/* /var/www/html \
     && rm -rf /app
 
