@@ -21,7 +21,7 @@ docker build -t blog:latest .
 echo "remove old container ..."
 docker rm -f myblog
 echo "run myblog ..."
-docker run -d -p 80:80 blog:latest myblog
+docker run -d -p 80:80 blog:latest --name myblog
 
 
 
