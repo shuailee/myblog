@@ -85,7 +85,7 @@ module.exports = [
       options: {
         clientID: 'd7f2ebae8421d019412c',
         clientSecret: '1dbee847d0f8ddeb511da53eace14c3c7c7f7b2a',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
+        repo: 'www.lishuai.site', // GitHub 仓库
         owner: 'shuailee', // GitHub仓库所有者
         admin: ['shuailee'], // 对仓库有写权限的人
         // distractionFreeMode: true,
