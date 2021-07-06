@@ -1,18 +1,18 @@
 # 文档
 [主题文档](https://doc.klein.com/pages/a2f161/#%E7%89%B9%E6%80%A7)
 
-#### 使用的是：vuepress-theme-vdoing 主题
-#### 本地运行 
+### 使用的是：vuepress-theme-vdoing 主题
+### 本地运行 
 运行下面命令：
 ```
 npm run dev
 ```
-#### docker 方式部署 
+### docker 方式部署 
 运行下面命令：
 ```
 sh docker_deploy.sh
 ```
-#### 评论系统
+### 评论系统
 评论系统使用 Gitalk 插件,在/config/plugins.js文件中配置
 Gitalk demo：https://gitalk.github.io/
 Gitalk github：https://github.com/gitalk/gitalk
